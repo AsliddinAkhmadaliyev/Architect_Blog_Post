@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+  background-image: url('./assets/fon.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.author__fon {
+  background-image: url('./assets/user.png');
+  background-repeat: no-repeat;
+  background-size: 43%;
+  background-position: right bottom;
+}
+
+.navbar-scroll {
+  background-color: rgb(8, 73, 73, 0.95);
+  padding: 15px;
+}
+
+.banner-img {
+  background-image: url('./assets/banner.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.banner-color {
+  background-color: rgb(3, 119, 119, 0.8);
+}
+
+.portfolio-card {
+  background-image: url('./assets//portfolio.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+.card {
+  opacity: 0;
+}
+.card:hover {
+  background-color: rgb(5, 99, 99, 0.8);
+  opacity: 1;
+}
